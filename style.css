@@ -85,16 +85,70 @@ body {
   line-height: 32px; /* 100% */
   text-transform: uppercase;
 }
-.eight-photo {
+.eight-photo-div {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(8, 1fr);
   gap: 2.4rem;
   padding: 0 2.4rem;
+  position: relative;
+  margin-bottom: 3.4rem;
 }
 .pic {
   width: 100%;
 }
 .picd {
   display: none;
+}
+.span {
+  position: absolute;
+  left: 4rem;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 24px; /* 100% */
+  text-transform: uppercase;
+  width: 8ch;
+}
+.deep-earth-m {
+  top: 5rem;
+}
+.night-arcade-m {
+  top: 20rem;
+}
+.soccer-team-vr-m {
+  top: 35rem;
+}
+.the-grid-m {
+  top: 50rem;
+  width: 3ch;
+}
+.from-up-above-vr-m {
+  top: 60rem;
+  width: 10ch;
+}
+.pocket-borealis-m {
+  top: 78rem;
+}
+.the-curiosity-m {
+  top: 92rem;
+}
+.make-it-fisheye-m {
+  top: 107rem;
+}
+.see-button {
+  color: #000;
+  font-family: Alata;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px; /* 100% */
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 0.01rem solid #000;
+  padding: 1.5rem;
+  width: 50%;
+  margin-bottom: 9.6rem;
 }
