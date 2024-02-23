@@ -3,19 +3,85 @@
   margin: 0;
   box-sizing: border-box;
 }
+.hamburger-close-button {
+  display: none;
+}
+html {
+  font-size: 62.5%;
+}
 body {
   font-family: "Josefin Sans", sans-serif;
+  font-family: "Alata", sans-serif;
 
   background-image: url(./images/mobile/image-hero.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
 }
-.hamburger-button {
-  display: none;
+.header-class {
+  padding: 4rem 2.4rem 0 2.4rem;
+  position: relative;
 }
-.hamburger-close-button {
-  display: none;
+.hamburger-button {
+  position: absolute;
+  right: 3rem;
+  bottom: 1rem;
+}
+.top-h1-div {
+  padding: 0 2.4rem;
+  margin-top: 19rem;
+  margin-bottom: 32 0.7rem;
+}
+
+.top-h1-class {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 38px; /* 95% */
+  text-transform: uppercase;
+  padding: 2.4rem;
+  border: 2px solid #fff;
+}
+.middle-one-photo-div {
+  padding: 0 2.6rem;
+  margin-bottom: 4.8rem;
 }
 .middle-one-photo {
   width: 100%;
+}
+.middle-h2-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 9.6rem;
+}
+.middle-h2 {
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 32px; /* 100% */
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+}
+.middle-parag {
+  color: #000;
+  text-align: center;
+  font-family: Alata;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  width: 28ch;
+}
+.alone-h2-in-middle-div {
+  margin-bottom: 4.8rem;
+}
+.alone-h2-inMiddle {
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 32px; /* 100% */
+  text-transform: uppercase;
 }
