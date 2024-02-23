@@ -20,6 +20,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 .hamburger-button {
   /* position: absolute;
@@ -196,4 +197,36 @@ body {
   display: flex;
   justify-content: space-between;
   width: 35%;
+}
+.burger-div {
+  display: none;
+  position: absolute;
+  padding: 4rem 2.6rem 10rem 2.4rem;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #000;
+}
+.burger-images-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30rem;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  list-style: none;
+}
+
+li {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 25px; /* 104.167% */
+  text-transform: uppercase;
+}
+.navActive {
+  display: block;
 }
