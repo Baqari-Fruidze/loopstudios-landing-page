@@ -11,25 +11,25 @@ html {
 }
 body {
   font-family: "Josefin Sans", sans-serif;
-  font-family: "Alata", sans-serif;
-
   background-image: url(./images/mobile/image-hero.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
 }
 .header-class {
   padding: 4rem 2.4rem 0 2.4rem;
-  position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 .hamburger-button {
-  position: absolute;
+  /* position: absolute;
   right: 3rem;
-  bottom: 1rem;
+  bottom: 1rem; */
+  /* justify-self: flex-end; */
 }
 .top-h1-div {
   padding: 0 2.4rem;
   margin-top: 19rem;
-  margin-bottom: 32 0.7rem;
+  margin-bottom: 30.7rem;
 }
 
 .top-h1-class {
@@ -41,9 +41,9 @@ body {
   padding: 2.4rem;
   border: 2px solid #fff;
 }
-.middle-one-photo-div {
+.middle-div {
   padding: 0 2.6rem;
-  margin-bottom: 4.8rem;
+  margin-bottom: 9.6rem;
 }
 .middle-one-photo {
   width: 100%;
@@ -53,7 +53,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 9.6rem;
+  margin-top: 4.8rem;
 }
 .middle-h2 {
   color: #000;
@@ -67,12 +67,12 @@ body {
 .middle-parag {
   color: #000;
   text-align: center;
-  font-family: Alata;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 25px; /* 166.667% */
   width: 28ch;
+  font-family: "Alata", sans-serif;
 }
 .alone-h2-in-middle-div {
   margin-bottom: 4.8rem;
@@ -84,4 +84,17 @@ body {
   font-weight: 300;
   line-height: 32px; /* 100% */
   text-transform: uppercase;
+}
+.eight-photo {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 1fr);
+  gap: 2.4rem;
+  padding: 0 2.4rem;
+}
+.pic {
+  width: 100%;
+}
+.picd {
+  display: none;
 }
