@@ -240,7 +240,7 @@ li {
 .navActive {
   display: block;
 }
-@media (min-width: 90em) {
+@media only screen and (min-width: 90em) {
   body {
     background-image: url(./images/desktop/image-hero.jpg);
   }
@@ -263,8 +263,6 @@ li {
   }
   .header-class {
     padding: 6.4rem 15.6rem 14.6rem 15.8rem;
-    display: flex;
-    justify-content: space-between;
   }
   .desktop-ul {
     display: flex;
@@ -325,5 +323,136 @@ li {
     z-index: 1;
     padding-top: 9rem;
     padding-left: 10rem;
+  }
+  .eight-photo-div {
+    width: 100%;
+    padding: 0;
+    gap: 3rem;
+    order: 2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .picd {
+    display: block;
+  }
+  .wrap-div {
+    align-items: center;
+    margin-bottom: 18rem;
+    padding: 0 16.1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .alone-h2-in-middle-div {
+    order: 0;
+  }
+  .see-button {
+    align-self: self-start;
+    margin: 0;
+    width: 15%;
+    order: 1;
+  }
+  .span {
+    left: 0;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 32px; /* 100% */
+    text-transform: uppercase;
+  }
+  .deep-earth-m {
+    top: 38%;
+    left: 4%;
+  }
+  .night-arcade-m {
+    top: 38%;
+    left: 30%;
+  }
+  .soccer-team-vr-m {
+    top: 38%;
+    left: 56%;
+  }
+  .the-grid-m {
+    top: 38%;
+    left: 81%;
+  }
+  .from-up-above-vr-m {
+    top: 90%;
+    left: 4%;
+  }
+  .pocket-borealis-m {
+    top: 90%;
+    left: 30%;
+  }
+  .the-curiosity-m {
+    top: 90%;
+    left: 56%;
+  }
+  .make-it-fisheye-m {
+    top: 90%;
+    left: 81%;
+  }
+  .footer-image {
+    margin: 0;
+    align-self: flex-start;
+  }
+  .footer-class {
+    padding: 4.4rem 16.5rem 4.3rem 16.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footers-first-div {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-div {
+    gap: 3.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  .icons-div {
+    width: auto;
+    gap: 1rem;
+    align-self: flex-end;
+  }
+  .see-button:hover {
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px; /* 100% */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+  .support-class {
+    position: relative;
+  }
+  .support-class:hover:after {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 0.01rem;
+    left: 30%;
+    bottom: 0;
+    background-color: #fff;
+  }
+  .face-icon-div {
+    position: relative;
+  }
+  .face-icon-div:hover:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0.1rem;
+    background-color: #fff;
+    bottom: -0.4rem;
+    left: 0;
   }
 }
