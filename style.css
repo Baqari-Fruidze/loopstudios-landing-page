@@ -28,12 +28,7 @@ body {
   align-items: center;
   position: relative;
 }
-.hamburger-button {
-  /* position: absolute;
-  right: 3rem;
-  bottom: 1rem; */
-  /* justify-self: flex-end; */
-}
+
 .top-h1-div {
   padding: 0 2.4rem;
   margin-top: 19rem;
@@ -335,6 +330,7 @@ li {
   }
   .picd {
     display: block;
+    width: 100%;
   }
   .wrap-div {
     align-items: center;
@@ -443,10 +439,10 @@ li {
     bottom: 0;
     background-color: #fff;
   }
-  .face-icon-div {
+  .icon {
     position: relative;
   }
-  .face-icon-div:hover:after {
+  .icon:hover:after {
     position: absolute;
     content: "";
     width: 100%;
